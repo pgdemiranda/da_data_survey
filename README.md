@@ -2,13 +2,15 @@
 
 The purpose of this project is to practice **Microsoft Power BI** and its set of tools, data manipulation, and dashboard creation. The dataset used in this project was taken from this repository [https://github.com/AlexTheAnalyst/Power-BI/blob/main/Power BI - Final Project.xlsx](https://github.com/AlexTheAnalyst/Power-BI/tree/main), which is a dataset created from a survey with professionals from different data fields for a YouTube channel focused on Data Analysis.
 
+## Tools used:
+
 We initially examined the dataset using **Microsoft Excel** just to check the data, but we decided to perform as many steps as possible in **Microsoft Power BI**.
 
-## Step by Step:
+## Solution:
 
 Here is the solution using **Microsoft Power BI**. After reviewing the columns and rows of the dataset with **Microsoft Excel**, we imported the spreadsheet and decided to transform the data using Power Query.
 
-### 01. Data Cleaning with Power Query
+### 01. Data Cleaning with Power Query:
 
 1. We removed columns that were not relevant for analysis (Browser, OS, City, Country, Referrer).
 2. Column Q1 was cleaned using Split Column and Left-Most Delimiter to focus the titles on general categories (including Other). The same procedure was applied to columns Q4, Q5, and Q11.
